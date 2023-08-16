@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <picture>
+          <source
+            media="(min-width:600px)"
+            srcset="./assets/images/image-product-desktop.jpg"
+          />
+          <img src="./assets/images/image-product-mobile.jpg" alt="" />
+        </picture>
+        <div class="card__content">
+          <span>Perfume</span>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p class="card__text">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="price-container">
+            <p class="discounted">$149.99</p>
+            <p class="original">$169.99</p>
+          </div>
+          <button class="btn" title="Add to Cart">Add to Cart</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      Challenge by
+      <a
+        class="line-break"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+      >
+        Frontend Mentor.
+      </a>
+      Coded by
+      <a href="https://github.com/jozef-capanda" target="_blank">
+        Jozef Capanda.
+      </a>
+    </footer>
+  </body>
+</html>
